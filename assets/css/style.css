@@ -3,3 +3,50 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: cadetblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+  background-color: aliceblue;
+  height: 70px;
+}
+
+header .header-container{
+  max-width: 600px;
+}
+
+main{
+  height: calc(100vh - 70px);
+}
+
+.field{
+  width: 500px;
+  height: 500px;
+  padding: 5px 0 5px 5px;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+.field .cell{
+  background-color: cornflowerblue;
+  border-radius: 7px;
+  margin-right: 5px;
+}
+
+.field .cell.big{
+  width: calc(100% / 7 - 5px);
+  height: calc(100% / 7 - 5px);
+}
+
+.field .cell.medium{
+  width: calc(100% / 9 - 5px);
+  height: calc(100% / 9 - 5px);
+}
+
+.field .cell.small{
+  width: calc(100% / 10 - 5px);
+  height: calc(100% / 10 - 5px);
+}
